@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="200px" height="200px" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.1 (8751) - http://www.bohemiancoding.com/sketch -->
+    <title>Grid</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Grid" sketch:type="MSArtboardGroup">
+            <rect id="Rectangle-1" stroke="#979797" stroke-width="4" fill="#EEEEEE" sketch:type="MSShapeGroup" x="0" y="0" width="200" height="200"></rect>
+            <path d="M15.9955677,51 L56.521431,51" id="Line-2" stroke="#7B7879" stroke-width="8" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+            <path d="M78.9955677,51 L119.521431,51" id="Line-2" stroke="#7B7879" stroke-width="8" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+            <path d="M141.995568,51 L182.521431,51" id="Line-2" stroke="#7B7879" stroke-width="8" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+            <path d="M15.9955677,81 L56.521431,81" id="Line-5" stroke="#7B7879" stroke-width="8" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+            <path d="M78.9955677,81 L119.521431,81" id="Line-3" stroke="#7B7879" stroke-width="8" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+            <path d="M141.995568,81 L182.521431,81" id="Line-4" stroke="#7B7879" stroke-width="8" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+            <path d="M15.9955677,111 L56.521431,111" id="Line-8" stroke="#7B7879" stroke-width="8" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+            <path d="M78.9955677,111 L119.521431,111" id="Line-6" stroke="#7B7879" stroke-width="8" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+            <path d="M141.995568,111 L182.521431,111" id="Line-7" stroke="#7B7879" stroke-width="8" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,1072 @@
+/*! Grawlix | Stick figure - v1.0 | getgrawlix.com */
+
+/*! General body */
+.row {
+  max-width: 64.375rem;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.adspace { text-align: center; }
+
+.center {
+	width: 1000px;
+  margin-left: auto ;
+  margin-right: auto ;
+}
+
+
+body {
+  background-color: #f1f8e6;
+  /*color: #f1f8e6;*/
+  background-image: url("/assets/system/images/BG-Grid.png");
+  /*background-repeat: repeat-x;*/
+  background-position: top-center;
+  background-size: cover;
+  font-size: 1rem;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Verdana, sans-serif;
+  cursor: auto;
+}
+
+a:link {color:#2a7eff;}  /* unvisited link */
+a:visited {color:#336699;}  /* visited link */
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
+
+a {
+  color: #45b058;
+  line-height: inherit;
+  text-decoration: none;
+}
+
+a:hover, a:focus {
+  color: #83ce91;
+  text-decoration: none;
+}
+
+a img { border: none; }
+
+
+
+/*! Text */
+
+p {
+  font-size: inherit;
+  font-family: inherit;
+  line-height: inherit;
+  margin: 16px 0 16px 0;
+  padding: 0 1em;
+}
+
+small {
+  font-size: 70%;
+  line-height: inherit;
+}
+
+h1 { font-size: 2.25rem; }
+h2 { font-size: 1.5rem; }
+h3 { font-size: 1.125rem; }
+h4 { font-size: 1rem; }
+h5 { font-size: 0.875rem; }
+h6 { font-size: 0.666rem; }
+
+h1, h2, h3, h4, h5, h6 { padding-bottom: .8rem; }
+
+
+h2, h3, h4, h5, h6 {
+					font-family: 'Walter Turncoat', cursive;
+					text-decoration: none;
+					color: #000;
+					line-height: 1;
+				}
+
+h1 small, h1 time, h1 .title,
+h2 small, h2 time, h2 .title,
+h3 small, h3 time, h3 .title, { font-size: 70%; }
+
+/*! Reduce large headline text for small screens */
+
+@media only screen and (max-width: 40em) {
+  h1 { font-size: 1.875rem; }
+  h2 { font-size: 1.5rem; }
+  h3 { font-size: 1.375rem; }
+}
+
+/*! Buttons */
+
+.button {
+  background-color: #666 !important;
+  color: #ddd;
+}
+
+.button.disabled {
+  background-color: #ddd !important;
+  color: #fff;
+}
+
+.button:hover:not(.disabled),
+.button:focus:not(.disabled),
+.button:active:not(.disabled) {
+  background-color: #aaa !important;
+  color: #fff;
+}
+
+/*! Header */
+
+#site-head { margin-bottom: 0; }
+
+/*! Menu main */
+
+#menu-main {
+  margin-top: -15px;
+  margin-bottom: -12px;
+}
+
+#menu-main li { font-size: 1.75em; }
+
+.inline-items.text-center>li {
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+}
+
+/*! Menu widget */
+
+#menu-toggle {
+  color: #ddd;
+  background-color: #222 !important;
+}
+
+#menu-toggle:hover,
+#menu-toggle:focus,
+#menu-toggle:active { color: #ddd; }
+
+#menu-toggle > span:hover,
+#menu-toggle > span:focus,
+#menu-toggle > span:active,
+#menu-toggle > span[aria-expanded=true] {
+  color: #fff;
+  background-color: #333;
+}
+
+#menu-drop { background-color: #333; }
+
+#menu-drop li a { color: #ddd; }
+
+#menu-drop li a:hover,
+#menu-drop li a:focus,
+#menu-drop li a:active {
+  color: #fff;
+  background-color: #666;
+}
+
+/*! Spacing between major sections */
+
+#blog_post, #transcript, #comments, #follow { margin-bottom: 2rem; }
+
+/*! Footer */
+
+#site-foot {
+  padding-bottom: 1rem;
+  font-size: 0.8125rem;
+}
+
+
+#NoFirst {
+	margin: -88px 0 0 13px; 
+}
+#NoPrevious {
+	margin: -88px 0 0 95px; 
+}
+
+#NoNext {
+	margin: -92px 0 0 823px; 
+}
+#NoLast {
+	margin: -92px 0 0 905px; 
+}
+
+/* Ported from the Old Site */
+
+
+#content {
+	-moz-border-radius: 15px 45px;
+	border-radius: 15px 45px;
+	background-color: #fff;
+	margin: 0px 0px 0px 0px;
+	padding: 12px 0 12px 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#container {
+			width: 1050px;
+			margin: auto;
+			color: #000;
+}
+
+#share{
+	padding: 0 300px 0 300px;
+}
+
+/*
+font-family: 'Rock Salt', cursive;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Walter Turncoat', cursive;
+font-family: 'Schoolbell', cursive;
+font-family: 'Allan', cursive;
+font-family: 'Puritan', sans-serif;
+font-family: 'Neucha', cursive;
+*/
+
+.borderDivider {
+border-top-color: #AEE0E8;
+border-bottom-color: #AEE0E8;	
+border-top-style: solid;
+border-bottom-style: solid;
+border-top-width: 3px;
+border-bottom-width: 3px;
+color: black;
+font-family: 'Rock Salt', cursive;
+font-size: xx-large;
+padding: 0 0 0 0;
+background: #fff;
+}
+
+.borderDividerBottomOnly {
+border-top-color: #fff;
+border-bottom-color: #AEE0E8;	
+border-top-style: solid;
+border-bottom-style: solid;
+border-top-width: 3px;
+border-bottom-width: 3px;
+color: black;
+font-family: 'Rock Salt', cursive;
+font-size: xx-large;
+padding: 0 0 0 27px;
+background: #fff;
+}
+
+/**********************************************************************/
+/*SCREENBOX CODE I BORROWED from http://johnaugust.com/2004/screenbox */
+/**********************************************************************/
+
+
+.screenbox {
+    list-style: none;
+    width: 637px;
+    background: #eee;
+    border: 1px solid #333;
+    padding: 5px 0 0 200px;
+	margin: 10px 0 10px 0;
+}
+
+.screenboxTS{
+    list-style: none;
+    width: 637px;
+    background: #eee;
+    border: 1px solid #333;
+    padding: 5px 0 20px 100px;
+	margin: 10px 0 10px 0;
+	font-family: 'Courier', Courier New, Monospaced; 
+}
+
+.screenbox li { font-family: 'Courier', Courier New, Monospaced; }
+.sceneheader, .action, .character { padding-top: 1.5ex; padding-right: 42%;}
+.action { padding-right: 13%; }
+.character { margin-left: 28%; }
+.dialogue { margin-left: 13%; padding-right: 37%; }
+.parenthetical { margin-left: 32%; padding-right: 30%; }
+/* special case: dialogue followed by a parenthetical; the extra line needs to be suppressed */
+.dialogue + .parenthetical { padding-bottom: 0; }
+.transition { padding-top: 3ex; margin-left: 65%; padding-bottom: 1.5ex; }
+
+/*This is my addition that makes it work on my page the way I want it to*/
+
+.centerScript {
+	width: 43.75em;
+  margin-left: auto ;
+  margin-right: auto ;
+}
+
+.rightScript {
+	width: 39.8125em;
+  margin-left: auto ;
+  margin-right: auto ;
+}
+
+/*******************************/
+/*END SCREENBOX CODE I BORROWED*/
+/*******************************/
+
+
+/*Media Break Points*/
+
+/* Smaller Devices Font Sizes */
+@media screen 
+  and (max-width: 50em) 
+  
+   {
+  
+		h1 { font-size: 1.125rem; }
+		h2 { font-size: 0.75rem; }
+		h3 { font-size: 0.5625rem; }
+		h4 { font-size: 0.5rem; }
+		h5 { font-size: 0.4375rem; }
+		h6 { font-size: 0.333rem; }
+}
+
+/* Smaller Devices Portrait */
+@media screen 
+  and (max-width: 30em) and (min-width: 20em) 
+   
+  and (orientation: portrait) {
+	  
+	  #NoFirst {
+	margin: -88px 0 0 13px; 
+}
+#NoPrevious {
+	margin: -88px 0 0 95px; 
+}
+
+#NoNext {
+	margin: -92px 0 0 175px; 
+}
+#NoLast {
+	margin: -92px 0 0 257px; 
+}
+
+
+  	.center 	{
+		width: 22em;
+		margin-left: auto ;
+		margin-right: auto ;
+			}
+			
+	#container {
+		width: 23em;
+		margin: auto;
+		color: #000;
+			}
+	
+	#content {
+		-moz-border-radius: 15px 45px;
+		border-radius: 15px 45px;
+		background-color: #fff;
+		margin: 0px 0px 0px 0px;
+		padding: 12px 0 12px 0;
+		margin-left: auto;
+		margin-right: auto;
+		}
+		
+	body {
+		background-color: #f1f8e6;
+		/*color: #f1f8e6;*/
+		background-image: url("/assets/system/images/BG-Grid.png");
+		background-repeat: no-repeat;
+		background-position: top-left;
+		background-size: device-width auto;
+		max-width: device-width;
+		}
+		
+		p {padding: 0 1em;}
+		
+		.borderDivider {
+		font-size: large;
+		border-top-width: 1px;
+		border-bottom-width: 1px;
+		}
+
+		.borderDividerBottomOnly {
+		font-size: large;
+		border-top-width: 1px;
+		border-bottom-width: 1px;
+		padding: 0 0 0 0px;
+		}
+		#share{
+		padding: 6em 0 0 0;
+		}
+		.screenbox{
+		width: 25em;
+		font-family: "Courier New", Courier, monospace;
+		font-size: small;
+		padding: 5px 0 0 2em;
+    	}		
+		.screenboxTS{
+		width: 28em;
+		font-family: "Courier New", Courier, monospace;
+		font-size: x-small;
+    	}
+
+		
+}
+
+/* Smaller Devices Landscape */
+@media screen 
+  and (max-width: 40em) and (min-width: 30em) 
+   
+  and (orientation: landscape) {
+
+ #NoNext {
+	 margin: -92px 0 0 318px;
+ }
+ #NoLast {
+	margin: -92px 0 0 401px;
+ }
+  
+  	.center 	{
+		width: 31em;
+		margin-left: auto ;
+		margin-right: auto ;
+			}
+			
+	#container {
+		width: 32em;
+		margin: auto;
+		color: #000;
+			}
+	
+	#content {
+		-moz-border-radius: 15px 45px;
+		border-radius: 15px 45px;
+		background-color: #fff;
+		margin: 0px 0px 0px 0px;
+		padding: 12px 0 12px 0;
+		margin-left: auto;
+		margin-right: auto;
+		}
+		
+	body {
+		background-color: #f1f8e6;
+		/*color: #f1f8e6;*/
+		background-image: url("/assets/system/images/BG-Grid.png");
+		background-repeat: no-repeat;
+		background-position: top-left;
+		background-size: device-width auto;
+		max-width: device-width;
+		}
+		
+		.borderDivider {
+		font-size: large;
+		border-top-width: 1px;
+		border-bottom-width: 1px;
+		}
+
+		.borderDividerBottomOnly {
+		font-size: large;
+		border-top-width: 1px;
+		border-bottom-width: 1px;
+		padding: 0 0 0 0px;
+		}
+		#share{
+		padding: 6em 0 0 0;
+		}
+		.screenbox{
+		width: 28em;
+		font-family: "Courier New", Courier, monospace;
+		font-size: small;
+		padding: 5px 0 0 3em;
+    	}
+		.screenboxTS{
+		width: 28em;
+		font-family: "Courier New", Courier, monospace;
+		font-size: x-small;
+    	}
+
+		
+}
+
+/* Medium Devices Portrait */
+@media screen 
+  and (max-width: 40em) and (min-width: 30em) 
+   
+  and (orientation: Portrait) {
+	  
+#NoNext {
+	margin: -92px 0 0 319px;
+}
+#NoLast {
+	margin: -92px 0 0 401px;
+}
+
+
+  	.center 	{
+		width: 31em;
+		margin-left: auto ;
+		margin-right: auto ;
+			}
+			
+	#container {
+		width: 32em;
+		margin: auto;
+		color: #000;
+			}
+	
+	#content {
+		-moz-border-radius: 15px 45px;
+		border-radius: 15px 45px;
+		background-color: #fff;
+		margin: 0px 0px 0px 0px;
+		padding: 12px 0 12px 0;
+		margin-left: auto;
+		margin-right: auto;
+		}
+		
+	body {
+		background-color: #f1f8e6;
+		/*color: #f1f8e6;*/
+		background-image: url("/assets/system/images/BG-Grid.png");
+		background-repeat: no-repeat;
+		background-position: top-left;
+		background-size: device-width auto;
+		max-width: device-width;
+		}
+		
+		p {padding: 0 1em;}
+		
+		.borderDivider {
+		font-size: large;
+		border-top-width: 1px;
+		border-bottom-width: 1px;
+		}
+
+		.borderDividerBottomOnly {
+		font-size: large;
+		border-top-width: 1px;
+		border-bottom-width: 1px;
+		padding: 0 0 0 0px;
+		}
+		#share{
+		padding: 6em 0 0 0;
+		}
+		.screenbox{
+		width: 35em;
+		font-family: "Courier New", Courier, monospace;
+		font-size: small;
+		padding: 5px 0 0 3em;
+    	}		
+		.screenboxTS{
+		width: 28em;
+		font-family: "Courier New", Courier, monospace;
+		font-size: x-small;
+    	}
+
+		
+}
+
+
+/* Medium Devices Landscape */
+@media screen 
+  and (max-width: 60em) and (min-width: 50em) 
+   
+  and (orientation: landscape) {
+
+
+  	.center 	{
+		width: 51em;
+		margin-left: auto ;
+		margin-right: auto ;
+			}
+			
+	#container {
+		width: 52em;
+		margin: auto;
+		color: #000;
+			}
+	
+	#content {
+		-moz-border-radius: 15px 45px;
+		border-radius: 15px 45px;
+		background-color: #fff;
+		margin: 0px 0px 0px 0px;
+		padding: 12px 0 12px 0;
+		margin-left: auto;
+		margin-right: auto;
+		}
+		
+	body {
+		background-color: #f1f8e6;
+		/*color: #f1f8e6;*/
+		background-image: url("/assets/system/images/BG-Grid.png");
+		background-repeat: no-repeat;
+		background-position: top-left;
+		background-size: device-width auto;
+		max-width: device-width;
+		}
+		
+		.borderDivider {
+		font-size: large;
+		border-top-width: 1px;
+		border-bottom-width: 1px;
+		}
+
+		.borderDividerBottomOnly {
+		font-size: large;
+		border-top-width: 1px;
+		border-bottom-width: 1px;
+		padding: 0 0 0 0px;
+		}
+		#share{
+		padding: 6em 0 0 0;
+		}
+		.screenbox{
+		width: 40em;
+		font-family: "Courier New", Courier, monospace;
+		font-size: small;
+    	}
+		
+		.screenboxTS{
+		width: 28em;
+		font-family: "Courier New", Courier, monospace;
+		font-size: x-small;
+    	}
+
+		
+}
+
+/* iPads, Blackberry PLaybook, Nexus 7 */
+@media screen 
+  and (max-width: 65em) and (min-width: 60em) 
+   
+  and (orientation: landscape) {
+
+  #NoNext {
+	  margin: -92px 0 0 767px;
+  }
+  #NoLast {
+	  margin: -92px 0 0 849px;
+  }
+
+  	.center 	{
+		width: 59em;
+		margin-left: auto ;
+		margin-right: auto ;
+			}
+			
+	#container {
+		width: 60em;
+		margin: auto;
+		color: #000;
+			}
+	
+	#content {
+		-moz-border-radius: 15px 45px;
+		border-radius: 15px 45px;
+		background-color: #fff;
+		margin: 0px 0px 0px 0px;
+		padding: 12px 0 12px 0;
+		margin-left: auto;
+		margin-right: auto;
+		}
+		
+	body {
+		background-color: #f1f8e6;
+		/*color: #f1f8e6;*/
+		background-image: url("/assets/system/images/BG-Grid.png");
+		background-repeat: no-repeat;
+		background-position: top-left;
+		background-size: device-width auto;
+		max-width: device-width;
+		}
+		
+			
+		
+		.inline-items.text-center>li {
+		padding-left: 1rem;
+		padding-right: 1rem;
+		} 
+		
+		.borderDivider {
+		font-size: large;
+		border-top-width: 1px;
+		border-bottom-width: 1px;
+		}
+
+		.borderDividerBottomOnly {
+		font-size: large;
+		border-top-width: 1px;
+		border-bottom-width: 1px;
+		padding: 0 0 0 0px;
+		}
+		#share{
+		padding: 6em 0 0 0;
+		}
+		
+
+		.screenboxTS{
+		width: 28em;
+		font-family: "Courier New", Courier, monospace;
+		font-size: x-small;
+    	}
+
+		
+}
+
+
+/* iPhone 4*/
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) 
+and (orientation : landscape)
+   
+   {
+
+   #NoNext {
+	   margin: -92px 0 0 287px;
+   }
+   #NoLast {
+	   margin: -92px 0 0 369px;
+   }
+
+  	.center 	{
+		width: 29em;
+		margin-left: auto ;
+		margin-right: auto ;
+			}
+			
+	#container {
+		width: 30em;
+		margin: auto;
+		color: #000;
+			}
+	
+	#content {
+		-moz-border-radius: 15px 45px;
+		border-radius: 15px 45px;
+		background-color: #fff;
+		margin: 0px 0px 0px 0px;
+		padding: 12px 0 12px 0;
+		margin-left: auto;
+		margin-right: auto;
+		}
+		
+	body {
+		background-color: #f1f8e6;
+		/*color: #f1f8e6;*/
+		background-image: url("/assets/system/images/BG-Grid.png");
+		background-repeat: no-repeat;
+		background-position: top-left;
+		background-size: device-width auto;
+		max-width: device-width;
+		}
+		
+		.borderDivider {
+		font-size: large;
+		border-top-width: 1px;
+		border-bottom-width: 1px;
+		}
+
+		.borderDividerBottomOnly {
+		font-size: large;
+		border-top-width: 1px;
+		border-bottom-width: 1px;
+		padding: 0 0 0 0px;
+		}
+		#share{
+		padding: 6em 0 0 0;
+		}
+		.screenbox{
+		width: 28em;
+		padding: 0 0 0 2em;
+		font-family: "Courier New", Courier, monospace;
+		font-size: small;
+    	}		
+
+		.screenboxTS{
+		width: 28em;
+		font-family: "Courier New", Courier, monospace;
+		font-size: x-small;
+    	}
+
+		
+}
+
+/* Medium Devices Portrait */
+@media screen 
+  and (max-width: 50em) and (min-width: 46em) 
+   
+  and (orientation: portrait) {
+	  
+	  #NoNext{
+		  margin: -92px 0 0 575px;
+	  }
+	  #NoLast {
+		  margin: -92px 0 0 656px;
+	  }
+	  
+	  	.inline-items.text-center>li {
+		padding-left: .75rem;
+		padding-right: .75rem;
+		}
+
+		ul, ol, dl {
+		font-size: .9rem;
+		}
+
+  	.center 	{
+		width: 47em;
+		margin-left: auto ;
+		margin-right: auto ;
+			}
+			
+	#container {
+		width: 48em;
+		margin: auto;
+		color: #000;
+			}
+	
+	#content {
+		-moz-border-radius: 15px 45px;
+		border-radius: 15px 45px;
+		background-color: #fff;
+		margin: 0px 0px 0px 0px;
+		padding: 12px 0 12px 0;
+		margin-left: auto;
+		margin-right: auto;
+		}
+		
+	body {
+		background-color: #f1f8e6;
+		/*color: #f1f8e6;*/
+		background-image: url("/assets/system/images/BG-Grid.png");
+		background-repeat: no-repeat;
+		background-position: top-left;
+		background-size: device-width auto;
+		max-width: device-width;
+		}
+		
+		p {padding: 0 1em;}
+		
+		.borderDivider {
+		font-size: large;
+		border-top-width: 1px;
+		border-bottom-width: 1px;
+		}
+
+		.borderDividerBottomOnly {
+		font-size: large;
+		border-top-width: 1px;
+		border-bottom-width: 1px;
+		padding: 0 0 0 0px;
+		}
+		#share{
+		padding: 6em 0 0 0;
+		}
+		
+		.screenboxTS{
+		width: 38em;
+		font-family: "Courier New", Courier, monospace;
+		font-size: x-small;
+    	}
+
+		
+}
+
+/* Medium Devices Landscape */
+@media screen 
+  and (max-width: 46em) and (min-width: 40em) 
+   
+  and (orientation: Landscape) {
+
+  #NoFirst {
+	  margin: -93px 0 0 13px;
+  }
+    #NoPrevious {
+	  margin: -93px 0 0 94px;
+  }
+  #NoNext {
+	  margin: -97px 0 0 448px;
+  }
+  #NoLast {
+	  margin: -97px 0 0 529px;
+  }
+
+  	.center 	{
+		width: 39em;
+		margin-left: auto ;
+		margin-right: auto ;
+			}
+			
+	#container {
+		width: 40em;
+		margin: auto;
+		color: #000;
+			}
+	
+	#content {
+		-moz-border-radius: 15px 45px;
+		border-radius: 15px 45px;
+		background-color: #fff;
+		margin: 0px 0px 0px 0px;
+		padding: 12px 0 12px 0;
+		margin-left: auto;
+		margin-right: auto;
+		}
+		
+	body {
+		background-color: #f1f8e6;
+		/*color: #f1f8e6;*/
+		background-image: url("/assets/system/images/BG-Grid.png");
+		background-repeat: no-repeat;
+		background-position: top-left;
+		background-size: device-width auto;
+		max-width: device-width;
+		}
+		
+		.inline-items.text-center>li {
+		padding-left: 1rem;
+		padding-right: 1rem;
+		}
+		
+		ul, ol, dl {
+		font-size: 0.625rem;
+		}
+		
+		.row:before, .row:after {
+		height: 5px;
+}
+		
+		.borderDivider {
+		font-size: large;
+		border-top-width: 1px;
+		border-bottom-width: 1px;
+		}
+
+		.borderDividerBottomOnly {
+		font-size: large;
+		border-top-width: 1px;
+		border-bottom-width: 1px;
+		padding: 0 0 0 0px;
+		}
+		#share{
+		padding: 6em 0 0 0;
+		}
+		.screenbox{
+		width: 38em;
+		font-family: "Courier New", Courier, monospace;
+		font-size: small;
+    	}		
+		.screenboxTS{
+		width: 38em;
+		font-family: "Courier New", Courier, monospace;
+		font-size: x-small;
+    	}
+
+		
+}
+
+
+
+/* Tiny Devices Portrait */
+@media screen 
+  and (max-width: 20em) and (min-width: 10em) 
+   
+  and (orientation: portrait) {
+
+  		h1 { font-size: 1rem; }
+		h2 { font-size: 0.625rem; }
+		h3 { font-size: 0.4375rem; }
+		h4 { font-size: 0.375rem; }
+		h5 { font-size: 0.3125rem; }
+		h6 { font-size: 0.208rem; }
+		
+		ul li img {max-width: 80%; max-height: 80%;}
+		.button-group li{margin-left: 0; margin-right: 0;}
+		li {width: 62px;}
+		.button-group:after {margin: 36px 0 0 0;}
+		
+#NoFirst {
+	max-height: 49.5938px;
+	max-width: 49.5938px;
+	margin: -94px 0 0 15px;
+}
+#NoPrevious {
+	max-height: 49.5938px;
+	max-width: 49.5938px;
+	margin: -94px 0 0 81px;
+}
+#NoNext {
+	max-height: 49.5938px;
+	max-width: 49.5938px;
+	margin: -95px 0 0 173px;
+}
+#NoLast {
+	max-height: 49.5938px;
+	max-width: 49.5938px;
+	margin: -95px 0 0 239px;
+}
+		
+
+  	.center 	{
+		width: 19em;
+		margin-left: auto ;
+		margin-right: auto ;
+			}
+			
+	#container {
+		width: 20em;
+		margin: auto;
+		color: #000;
+			}
+	
+	#content {
+		-moz-border-radius: 15px 45px;
+		border-radius: 15px 45px;
+		background-color: #fff;
+		margin: 0px 0px 0px 0px;
+		padding: 12px 0 12px 0;
+		margin-left: auto;
+		margin-right: auto;
+		}
+		
+	body {
+		background-color: #f1f8e6;
+		/*color: #f1f8e6;*/
+		background-image: url("/assets/system/images/BG-Grid.png");
+		background-repeat: no-repeat;
+		background-position: top-left;
+		background-size: device-width auto;
+		max-width: device-width;
+		}
+		
+		.borderDivider {
+		font-size: medium;
+		border-top-width: 1px;
+		border-bottom-width: 1px;
+		}
+
+		.borderDividerBottomOnly {
+		font-size: medium;
+		border-top-width: 1px;
+		border-bottom-width: 1px;
+		padding: 0 0 0 0px;
+		}
+		#share{
+		padding: 6em 0 0 0;
+		}
+			.screenbox {
+		width: 28em;
+		font-family: "Courier New", Courier, monospace;
+		font-size: x-small;
+		padding-left: 50px;
+    	}	
+
+		.screenbox li {width: 15em;}
+		.screenbox li.dialogue {width: 15em; padding-right: 5%;}
+		
+		.screenboxTS {
+		width: 28em;
+		font-family: "Courier New", Courier, monospace;
+		font-size: x-small;
+		padding-left: 50px;
+    	}
+		
+
+		.sceneheader, .action, .character {width:15em; padding-top: 1.5ex; padding-right: .33em;}
+		
+}
+
+}

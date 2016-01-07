@@ -1,0 +1,31 @@
+RewriteEngine on
+
+php_flag register_globals off
+
+RewriteCond %{REQUEST_FILENAME} !^.*\.css$
+RewriteCond %{REQUEST_FILENAME} !^.*\.js$
+RewriteCond %{REQUEST_FILENAME} !^.*\.php$
+RewriteCond %{REQUEST_FILENAME} !^.*\.xml$
+RewriteCond %{REQUEST_FILENAME} !^.*\.html$
+
+RewriteCond %{REQUEST_FILENAME} !^.*\.jpg$
+RewriteCond %{REQUEST_FILENAME} !^.*\.jpeg$
+RewriteCond %{REQUEST_FILENAME} !^.*\.gif$
+RewriteCond %{REQUEST_FILENAME} !^.*\.png$
+RewriteCond %{REQUEST_FILENAME} !^.*\.svg$
+
+RewriteCond %{REQUEST_FILENAME} !^.*\.swf$
+RewriteCond %{REQUEST_FILENAME} !^.*\.mov$
+RewriteCond %{REQUEST_FILENAME} !^.*\.wmv$
+RewriteCond %{REQUEST_FILENAME} !^.*\.mp3$
+RewriteCond %{REQUEST_FILENAME} !^.*\.pdf$
+RewriteCond %{REQUEST_FILENAME} !^.*\.zip$
+
+RewriteCond %{REQUEST_FILENAME} !^.*\.eot$
+RewriteCond %{REQUEST_FILENAME} !^.*\.otf$
+RewriteCond %{REQUEST_FILENAME} !^.*\.woff$
+RewriteCond %{REQUEST_FILENAME} !^.*\.ttf$
+
+RewriteRule ^(.*)$ index.php?$1
+
+
